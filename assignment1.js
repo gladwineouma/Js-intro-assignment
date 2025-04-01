@@ -9,10 +9,10 @@ let newm = m.slice (0,3) + charToAdd + m.slice(3);
 console.log(newm);
 
 
-let a = 'hello world, hello Javascript';
-let count = (a. match(/hello/g) || []).length;
-console.log({count});
-
+let k='hello world, hello Javascript';
+let newk='hello';
+let total=k.split(newk).length-1
+console.log({total})
 
 let b = 'Gladwin';
 let lastchar = b.slice(-3);
@@ -31,8 +31,11 @@ console.log({sortedStr});
 
 
 let d = 'I embrace change'
-let noSpace = d.replace(/\s+/g, '');
-console.log(noSpace);
+
+let noSpace =d.split(" ").join("");
+console.log({noSpace});
+
+
 
 
 
